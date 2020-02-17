@@ -43,6 +43,10 @@ color: black;
 font-size: 22px;
 }
 
+.menu_1:hover{
+	cursor: pointer;
+}
+
 .menu_2{
 position: relative;
 left: 380px;
@@ -52,6 +56,10 @@ color: black;
 font-size: 22px;
 }
 
+.menu_2:hover{
+	cursor: pointer;
+}
+
 .menu_3{
 position: relative;
 left: 610px;
@@ -59,6 +67,10 @@ top: -132px;
 font-family: didot;
 color: black;
 font-size: 22px;
+}
+
+.menu_3:hover{
+	cursor: pointer;
 }
 
 .image1{
