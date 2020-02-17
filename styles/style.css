@@ -23,6 +23,8 @@ top: -40px;
 .menu_bar:hover{
 position: relative;
 background-color: whitesmoke;
+transform: opacity: 40%;
+transition-duration: 2.5s;
 left: 20px;
 top: -40px;
 }
