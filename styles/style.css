@@ -1,10 +1,156 @@
-/**  ========================================================================== 
-
-This is where your custom styles begin. 
-
-==========================================================================  */
-
 
 .home {
-    
+ position: relative;
+ left: 1190px;
+ top: 15px;
+ font-family:blacker display;
+ font-size: 13px;
 }
+
+.heading{
+position: relative;
+left: 20px;
+top: -41px;
+font-family: didot;
+}
+
+.menu_bar{
+position: relative;
+left: 20px;
+top: -40px;
+}
+
+.menu_bar:hover{
+position: relative;
+background-color: whitesmoke;
+left: 20px;
+top: -40px;
+}
+
+.line{
+position: relative;
+top: -53px;
+}
+
+.menu_1{
+position: relative;
+left: 170px;
+top: -83px;
+font-family: didot;
+color: black;
+font-size: 22px;
+}
+
+.menu_2{
+position: relative;
+left: 380px;
+top: -108px;
+font-family: didot;
+color: black;
+font-size: 22px;
+}
+
+.menu_3{
+position: relative;
+left: 610px;
+top: -132px;
+font-family: didot;
+color: black;
+font-size: 22px;
+}
+
+.image1{
+position:relative;
+top: 15px;
+left: 20px;
+   animation-name: image;
+   animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: left;
+}
+
+@keyframes image {
+  0%   {left:0px; top:-70px;}
+  25%  {left:150px; top:-70px;}
+  50%  {left:150px; top:-70px;}
+  75%  {left:150px; top:-70px;}
+  100% {left:150px; top:-70px;}
+}
+
+.image2{
+position:relative;
+top: 60px;
+left: 20px;
+animation-name: images;
+   animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: left;
+}
+
+@keyframes images {
+  0%   {left:0px; top:-50px;}
+  25%  {left:420px; top:-50px;}
+  50%  {left:420px; top:-50px;}
+  75%  {left:420px; top:-50px;}
+  100% {left:420px; top:-50px;}
+}
+
+.image3{
+position:relative;
+top: 65px;
+left: 20px;
+animation-name: imagess;
+   animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: left;
+}
+
+@keyframes imagess {
+  0%   {left:0px; top:-30px;}
+  25%  {left:700px; top:-30px;}
+  50%  {left:700px; top:-30px;}
+  75%  {left:700px; top:-30px;}
+  100% {left:700px; top:-30px;}
+}
+
+.as{
+font-family: didot;
+color: black;
+left: 22px;
+top:15px;
+position: relative;
+font-size: 25px;
+font-weight: bold;
+}
+
+.statement p {
+position: relative;
+top:15px;
+overflow: hidden;
+  border-right: .10em solid orange;
+  white-space: nowrap;
+  margin: 22px;
+  letter-spacing: .15em;
+  animation: 
+    typing 5s steps(45, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+
+
