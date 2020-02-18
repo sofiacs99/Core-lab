@@ -1,5 +1,4 @@
 
-<!-- This is how to make a comment. Comments are visible in the code, but is not rendered to the browser. Index.html is the "home" page of websites. Welcome home. -->
 
 <html lang="en">
 
@@ -15,17 +14,17 @@
     <!-- The favicon is an avatar. Update this file with your own 96x96 png ! -->
     <link rel="shortcut icon" type="image/png" href="./favicon.png" />
 
-    <!-- This is where the style CSS files live. -->
-    <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
+<style>A {text-decoration: none;} a:link {
+  color: black; </style>
 
 <body>
-    <!-- Inside the body, I've created a div with a class of "home".
-         This is you will begin building your own online home! -->
+
     <div class="home">
         <h1>Sofia Cacho Sousa</h1>
     </div>
@@ -42,16 +41,13 @@
         <img src="menu.png" width="55px" height="60px" alt="menu">
     </div>
 
-    <div class="menu_1">
-        <h> Projects</h>
+    <div class = "menu_1"><a href = "projects.html">Projects</a>
     </div>
 
-    <div class="menu_2">
-        <h> Research</h>
+    <div class = "menu_2"><a href = "research.html">Research</a>
     </div>
 
-    <div class="menu_3">
-        <h> Links</h>
+    <div class = "menu_3"><a href = "links.html">Links</a>
     </div>
 
     <div class= "image1">
@@ -74,6 +70,33 @@
 <div class= "statement">
     <p>In my practice, I mostly focus on graphic design and typographical compositions<br> where I like to experiment with abstract, minimalist, and intriguing <br> concepts with the incorporation of photography.</p>
 </div>
+
+<br>
+<br>
+
+<div>
+    <img class="mySlides w3-animate-fading" src="infoco.png" style="width:40%">
+  <img class="mySlides w3-animate-fading" src="info.png" style="width:50%">
+  <img class="mySlides w3-animate-fading" src="infocos.png" style="width:48%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);    
+}
+</script>
+
 
     <!-- This is where the script file lives. We will get to this later in the course -->
     <script src="./scripts.js"></script>

@@ -166,5 +166,7 @@ overflow: hidden;
   50% { border-color: black; }
 }
 
-
+.mySlides w3-animate-fading {
+	border:1px solid black;
+}
 
