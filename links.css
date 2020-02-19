@@ -7,3 +7,17 @@
 	left: 20px;
 	top: 15px;
 }
+
+.line{
+	position: relative;
+	top: -35px;
+}
+
+.websites{
+	position: relative;
+	font-family: open sans;
+	color:white;
+	font-size: 30px;
+	left: 20px;
+	top: 15px;
+}
