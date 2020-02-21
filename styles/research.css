@@ -1,4 +1,14 @@
 
 .research{
+	position: relative;
 	font-family: didot;
+	color:white;
+	font-size: 60px;
+	left: 20px;
+	top: 25px;
+}
+
+.line{
+	position: relative;
+	top: -30px;
 }
