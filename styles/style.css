@@ -4,25 +4,25 @@ body {
 }
 
 .heading{
-position: relative;
-left: 20px;
-top: -41px;
-font-family: didot;
-color: black;
+  position: relative;
+  left: 20px;
+  top: -41px;
+  font-family: didot;
+  color: black;
 }
 
 .home {
- color: black;
- position: relative;
- left: 1190px;
- top: 15px;
- font-family:blacker display;
- font-size: 13px;
+  color: black;
+  position: relative;
+  left: 1190px;
+  top: 15px;
+  font-family:blacker display;
+  font-size: 13px;
 }
 
 .line{
-position: relative;
-top: -53px;
+  position: relative;
+  top: -53px;
 }
 
 .bar{
@@ -30,6 +30,7 @@ top: -53px;
 	top: 68px;
 	left: 23px;
 }
+
 .bar:hover{
 	cursor: pointer;
 }
@@ -79,12 +80,12 @@ top: -53px;
 }
 
 .menu_1{
-position: relative;
-left: 170px;
-top: -83px;
-font-family: didot;
-color: black;
-font-size: 22px;
+  position: relative;
+  left: 170px;
+  top: -83px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
 }
 
 .menu_1:hover{
@@ -92,12 +93,12 @@ font-size: 22px;
 }
 
 .menu_2{
-position: relative;
-left: 380px;
-top: -108px;
-font-family: didot;
-color: black;
-font-size: 22px;
+  position: relative;
+  left: 380px;
+  top: -108px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
 }
 
 .menu_2:hover{
@@ -105,12 +106,12 @@ font-size: 22px;
 }
 
 .menu_3{
-position: relative;
-left: 610px;
-top: -132px;
-font-family: didot;
-color: black;
-font-size: 22px;
+  position: relative;
+  left: 610px;
+  top: -132px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
 }
 
 .menu_3:hover{
@@ -134,15 +135,15 @@ font-size: 22px;
 }
 
 .image1{
-position:relative;
-top: 30px;
-left: 20px;
-   animation-name: image;
-   animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: left;
+  position:relative;
+  top: 30px;
+  left: 20px;
+    animation-name: image;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
 }
 
 @keyframes image {
@@ -154,15 +155,15 @@ left: 20px;
 }
 
 .image2{
-position:relative;
-top: 60px;
-left: 20px;
-animation-name: images;
-   animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: left;
+  position:relative;
+  top: 60px;
+  left: 20px;
+  animation-name: images;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
 }
 
 @keyframes images {
@@ -174,15 +175,15 @@ animation-name: images;
 }
 
 .image3{
-position:relative;
-top: 65px;
-left: 20px;
-animation-name: imagess;
-   animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: left;
+  position:relative;
+  top: 65px;
+  left: 20px;
+  animation-name: imagess;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
 }
 
 @keyframes imagess {
@@ -194,26 +195,27 @@ animation-name: imagess;
 }
 
 .as{
-font-family: didot;
-color: black;
-left: 22px;
-top:-8px;
-position: relative;
-font-size: 25px;
-font-weight: bold;
+  font-family: didot;
+  color: white;
+  background-color: black;
+  left: 22px;
+  top:-8px;
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .statement p {
-position: relative;
-top:-15px;
-overflow: hidden;
-  border-right: .10em black;
-  white-space: nowrap;
-  margin: 22px;
-  letter-spacing: .15em;
-  animation: 
-    typing 5s steps(45, end),
-    blink-caret 0.75s step-end infinite;
+  position: relative;
+  top:-15px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -227,16 +229,16 @@ overflow: hidden;
 }
 
 .statement2 p {
-position: relative;
-top:-31px;
-overflow: hidden;
-  border-right: .10em black;
-  white-space: nowrap;
-  margin: 22px;
-  letter-spacing: .15em;
-  animation: 
-    typing 5s steps(45, end),
-    blink-caret 0.75s step-end infinite;
+  position: relative;
+  top:-31px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -250,16 +252,16 @@ overflow: hidden;
 }
 
 .statement3 p {
-position: relative;
-top:-47px;
-overflow: hidden;
-  border-right: .10em black;
-  white-space: nowrap;
-  margin: 22px;
-  letter-spacing: .15em;
-  animation: 
-    typing 5s steps(45, end),
-    blink-caret 0.75s step-end infinite;
+  position: relative;
+  top:-47px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -276,3 +278,8 @@ overflow: hidden;
 	border:1px solid black;
 }
 
+.line2{
+  position: relative;
+  top: -30px;
+  left:20px;
+}
