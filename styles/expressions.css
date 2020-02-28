@@ -25,12 +25,188 @@ body {
   top: -40px;
 }
 
-.intro2{
+.container{
+	position: relative;
+	color: white;
+	text-align: center;
+}
 
+.intro{
+	position: absolute;
+	top:170px;
+	left:1097px;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.intro1{
+	position: absolute;
+	top:203px;
+	left:1017px;
+	font-size: 20px;
+}
+
+.intro1{
+	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+             animation-delay: 0s;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 280px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: white;}
+  to{border-right-color: white;}
+}
+
+.intro2{
+	position: absolute;
+	top:223px;
+	left:1020px;
+	font-size: 20px;
+}
+
+.intro2{
+	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+             animation-delay: 3s;
+             overflow: hidden;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 290px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: white;}
+  to{border-right-color: white;}
+}
+
+.intro3 {
+	position: absolute;
+	top:244px;
+	left:1020px;
+	font-size: 20px;
 }
 
 .intro3{
+	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+             animation-delay: 6s;
+             overflow: hidden;
+}
 
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 290px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: white;}
+  to{border-right-color: white;}
+}
+}
+
+.containers{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.walk{
+	position: absolute;
+	top:740px;
+	left:220px;
+	font-size: 18px;
+	color: white;
+}
+
+.walk2{
+	position: absolute;
+	top:761px;
+	left:138px;
+	font-size: 18px;
+	color: white;
+}
+
+.walk3{
+	position: absolute;
+	top:783px;
+	left:85px;
+	font-size: 18px;
+	color: white;
+}
+
+.containerss{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.rock{
+	position: absolute;
+	top:400px;
+	left:132px;
+	font-size: 20px;
+	color: white;
+}
+
+.rock1{
+	position: absolute;
+	top:423px;
+	left:124px;
+	font-size: 20px;
+	color: white;
+}
+
+.rock2{
+	position: absolute;
+	top:446px;
+	left:110px;
+	font-size: 20px;
+	color: white;
+}
+
+.rock3{
+	position: absolute;
+	top:470px;
+	left:165px;
+	font-size: 20px;
+	color: white;
+}
+
+.containersss{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.rrock{
+	position: absolute;
+	top:-110px;
+	left:1135px;
+	font-size: 20px;
+	color: white;
+}
+
+.rrock1{
+	position: absolute;
+	top:-88px;
+	left:1145px;
+	font-size: 20px;
+	color: white;
+}
+
+.rrock2{
+	position: absolute;
+	top:-65px;
+	left:1146px;
+	font-size: 20px;
+	color: white;
 }
 
 .image1{
