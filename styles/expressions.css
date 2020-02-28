@@ -1,6 +1,9 @@
+
 body { 
   overflow-x: hidden;
   max-height: 2000px;
+  cursor: url(./assets/feather.png), auto;
+  background-color: black;
 }
 
 .home {
@@ -415,7 +418,12 @@ body {
 .collage{
 	position: relative;
 	top: -2694px;
+}
 
+@media (max-width: 800px){
+	body{
+		background-color:white;
+	}
 }
 
 
