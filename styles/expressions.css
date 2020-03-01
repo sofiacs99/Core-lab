@@ -30,30 +30,30 @@ body {
 }
 
 .container{
-	position: relative;
-	color: white;
-	text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .intro{
-	position: absolute;
-	top:170px;
-	left:1097px;
-	font-size: 25px;
-	text-decoration: underline;
+  position: absolute;
+  top:170px;
+  left:1097px;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 .intro1{
-	position: absolute;
-	top:203px;
-	left:1017px;
-	font-size: 20px;
+  position: absolute;
+  top:203px;
+  left:1017px;
+  font-size: 20px;
 }
 
 .intro1{
 	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-             animation-delay: 0s;
+      animated-cursor 600ms steps(29,end) infinite;
+      animation-delay: 0s;
 }
 
 @keyframes animated-text{
@@ -67,17 +67,17 @@ body {
 }
 
 .intro2{
-	position: absolute;
-	top:223px;
-	left:1020px;
-	font-size: 20px;
+  position: absolute;
+  top:223px;
+  left:1020px;
+  font-size: 20px;
 }
 
 .intro2{
 	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-             animation-delay: 3s;
-             overflow: hidden;
+      animated-cursor 600ms steps(29,end) infinite;
+      animation-delay: 3s;
+      overflow: hidden;
 }
 
 @keyframes animated-text{
@@ -91,18 +91,18 @@ body {
 }
 
 .intro3 {
-	position: absolute;
-	top:244px;
-	left:1020px;
-	font-size: 20px;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:244px;
+  left:1020px;
+  font-size: 20px;
+  font-family: 'Playfair Display', ;
 }
 
 .intro3{
 	animation: animated-text 4s steps(29,end) 0.7s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-             animation-delay: 6s;
-             overflow: hidden;
+      animated-cursor 600ms steps(29,end) infinite;
+      animation-delay: 6s;
+      overflow: hidden;
 }
 
 @keyframes animated-text{
@@ -117,133 +117,122 @@ body {
 }
 
 .containers{
-	position: relative;
-	color: white;
-	text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .walk{
-	position: absolute;
-	top:740px;
-	left:220px;
-	font-size: 19px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:740px;
+  left:220px;
+  font-size: 19px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .walk2{
-	position: absolute;
-	top:761px;
-	left:138px;
-	font-size: 19px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:761px;
+  left:138px;
+  font-size: 19px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .walk3{
-	position: absolute;
-	top:783px;
-	left:85px;
-	font-size: 19px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:783px;
+  left:85px;
+  font-size: 19px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .containerssss{
-	position: relative;
-	color: white;
-	text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .containerss{
-	position: relative;
-	color: white;
-	text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .rock{
-	position: absolute;
-	top:-200px;
-	left:132px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-200px;
+  left:132px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .rock1{
-	position: absolute;
-	top:-180px;
-	left:124px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-180px;
+  left:124px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .rock2{
-	position: absolute;
-	top:-160px;
-	left:110px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-160px;
+  left:110px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .rock3{
-	position: absolute;
-	top:-140px;
-	left:165px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-140px;
+  left:165px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .containersss{
-	position: relative;
-	color: white;
-	text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .rrock{
-	position: absolute;
-	top:-110px;
-	left:1135px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-110px;
+  left:1135px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .rrock1{
-	position: absolute;
-	top:-88px;
-	left:1145px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
+  position: absolute;
+  top:-88px;
+  left:1145px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .rrock2{
-	position: absolute;
-	top:-65px;
-	left:1146px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Playfair Display', ;
-}
-
-.image1{
-}
-
-.image2{
-	
-}
-
-.image3{
-	
+  position: absolute;
+  top:-65px;
+  left:1146px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', ;
 }
 
 .containerss:hover {
-  animation: shake 0.7s;
-  animation-iteration-count: infinite;
+   animation: shake 0.7s;
+   animation-iteration-count: infinite;
 }
 
 @keyframes shake {
@@ -259,41 +248,15 @@ body {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-0.5deg); }
 }
-	
-}
-
-.image5{
-	
-}
-
-.image6{
-	
-}
-
-.image7{
-	
-}
 
 .image8{
 	position: relative;
 }
 
-.image9{
-	
-}
-
-.image10{
-	
-}
-
-.image11{
-	
-}
-
 .image12{
-	top: -650px;
-	position: relative;
-	left: 805px;
+  top: -650px;
+  position: relative;
+  left: 805px;
 }
 
 .run{
@@ -367,57 +330,55 @@ body {
 }
 
 .gif13{
-	position: relative;
-	top: -1318px;
+  position: relative;
+  top: -1318px;
 }
 
 .image14{
-	position: relative;
-	top: -1318px;
+  position: relative;
+  top: -1318px;
 }
 
 .img1 {
-	position: relative;
-    top: -1220px;
-	left:2px;
-    opacity: 50%;
-    transition: opacity 0.9s;
+  position: relative;
+  top: -1220px;
+  left:2px;
+  opacity: 50%;
+  transition: opacity 0.9s;
 }
 
 .img1:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .img2{
-	opacity: 40%;
-    transition: opacity 0.9s;
+  opacity: 40%;
+  transition: opacity 0.9s;
 
-	position: relative;
-	top: -1810px;
-	left:390px;
+  position: relative;
+  top: -1810px;
+  left:390px;
 }
+
 .img2:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .img3{
-	opacity: 30%;
-    transition: opacity 0.9s;
-	position: relative;
-	top: -2442px;
-	left:820px;
-}
-.img3:hover {
-    opacity: 100%;
+  opacity: 30%;
+  transition: opacity 0.9s;
+  position: relative;
+  top: -2442px;
+  left:820px;
 }
 
-.image15{
-	
+.img3:hover {
+  opacity: 100%;
 }
 
 .collage{
-	position: relative;
-	top: -2694px;
+  position: relative;
+  top: -2694px;
 }
 
 @media (max-width: 800px){
