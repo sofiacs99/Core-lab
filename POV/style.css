@@ -1,0 +1,1027 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    position: fixed;
+    width: 110px;
+    height: 180px;
+    top: 25px;
+    left:40px;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(./assets/ESB_animation.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.navigation{
+    font-family: Quicksand, sans-serif;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 200px;
+    letter-spacing: 0.1em;
+}
+
+.about{
+    font-family: Quicksand, sans-serif;
+    max-width: 400px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.contact{
+    font-family: Quicksand, sans-serif;
+    max-width: 400px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    padding-top: 220px;
+}
+
+.reviews{
+    font-family: Quicksand, sans-serif;
+    max-width: 400px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.visit{
+    font-family: Quicksand, sans-serif;
+    max-width: 400px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    padding-top: 220px;
+}
+
+.english{
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 742px;
+    left:15px;
+}
+
+.english:hover { 
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.bar{
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 742px;
+    left:50px;
+}
+    
+.spanish{
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 742px;
+    left:68px;
+}
+    
+.spanish:hover { 
+        text-decoration: underline;
+        cursor: pointer;
+}
+    
+.phone{
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 728px;
+    left:1332px;
+}
+    
+.email{
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 745px;
+    left:1275px;
+}
+
+.rating{
+    position: absolute;
+    width: 162px;
+    height: 45px;
+    left: 628px;
+    top: 8px;
+}
+
+.stars{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 572px;
+    top: 70px;
+}
+
+.ScrollBox {
+    position: absolute;
+    top: 210px;
+    left: 1079px;
+    border: none;
+    padding: 5px;
+    font-family: Quicksand, sans-serif;
+    font-size: 13px;
+    text-justify: left;
+    width: 310px;
+    height: 300px;
+    overflow: scroll;
+    }
+    
+    ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    border: 1px solid white;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: white;  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: white;  
+    }
+
+.fivestars{
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    color: #FBC504;
+}
+
+.animation_vibrant {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+ 
+     position: fixed;
+     top: 730px;
+     left: 470px;
+     color: yellow;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_fascinating {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.2s;
+ 
+     position: fixed;
+     top: 700px;
+     left: 300px;
+     color: red;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_manycultures {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.4s;
+ 
+     position: fixed;
+     top: 600px;
+     left: 250px;
+     color: green;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_overwhelming {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.6s;
+ 
+     position: fixed;
+     top: 500px;
+     left: 400px;
+     color: lightblue;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_grateful {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.8s;
+ 
+     position: fixed;
+     top: 300px;
+     left: 400px;
+     color: purple;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_speechless {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 1s;
+ 
+     position: fixed;
+     top: 650px;
+     left: 1100px;
+     color: pink;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_eye-opening {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.2s;
+ 
+     position: fixed;
+     top: 425px;
+     left: 320px;
+     color: yellow;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_incredible{
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.4s;
+ 
+     position: fixed;
+     top: 400px;
+     left: 500px;
+     color: red;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_tourists {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.6s;
+ 
+     position: fixed;
+     top: 200px;
+     left: 785px;
+     color: green;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_exhilarating {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.8s;
+ 
+     position: fixed;
+     top: 150px;
+     left: 430px;
+     color: blue;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_languages {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 1s;
+ 
+     position: fixed;
+     top: 700px;
+     left: 940px;
+     color: purple;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_unreal {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.2s;
+ 
+     position: fixed;
+     top: 600px;
+     left: 900px;
+     color: lightblue;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_ontopoftheworld {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.4s;
+ 
+     position: fixed;
+     top: 300px;
+     left: 870px;
+     color: pink;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_surprising {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.6s;
+ 
+     position: fixed;
+     top: 400px;
+     left: 940px;
+     color: yellow;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_newexperiences {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.8s;
+ 
+     position: fixed;
+     top: 500px;
+     left: 900px;
+     color: red;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_must-doinNYC {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 1s;
+ 
+     position: fixed;
+     top: 220px;
+     left: 990px;
+     color: green;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_worthit {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.2s;
+ 
+     position: fixed;
+     top: 570px;
+     left: 1040px;
+     color: green;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_lucky {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.4s;
+ 
+     position: fixed;
+     top: 350px;
+     left: 1040px;
+     color: blue;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_nervewracking {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.6s;
+ 
+     position: fixed;
+     top: 150px;
+     left: 880px;
+     color: yellow;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_monumental {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.8s;
+ 
+     position: fixed;
+     top: 70px;
+     left: 570px;
+     color: yellow;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_astonishing {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 1s;
+ 
+     position: fixed;
+     top: 90px;
+     left: 740px;
+     color: red;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_infinitelandscape {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.2s;
+ 
+     position: fixed;
+     top: 60px;
+     left: 860px;
+     color: pink;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_admiration {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.4s;
+ 
+     position: fixed;
+     top: 240px;
+     left: 500px;
+     color: green;
+     font-family:Quicksand;
+     font-size:14px;
+ }
+ 
+ @keyframes flickerAnimation {
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-o-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-moz-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ @-webkit-keyframes flickerAnimation{
+   0%   { opacity:1; }
+   50%  { opacity:0; }
+   100% { opacity:1; }
+ }
+ .animation_intriguing {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+     animation-delay: 0.6s;
+ 
+     position: fixed;
+     top: 630px;
+     left: 440px;
+     color: blue;
+     font-family:Quicksand;
+     font-size:14px;
+ }
