@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+    background: white;
+}
+
+.title {
+    position: fixed;
+    width: 200px;
+    margin: 0 auto;
+    left: 460px;
+    top: 4%;
+}
+
+.switch {
+    width: 50px;
+    height: 30px;
+    border: 3px solid black;
+    position: relative;
+    left: 96.5%;
+}
+
+.switch-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: black;
+}
+
+.container.darkmode {
+    background: black;
+}
+
+.container.darkmode .switch {
+    border: 3px solid white;
+}
+
+.container.darkmode .switch-button {
+    background: white;
+}
+
+.spotify {
+    position: fixed;
+    top: 2.5%;
+    left: 2%;
+    width: 325px;
+    height: 405px;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+}
+
+.information {
+    width: 370px;
+    height: auto;
+    border: 4px solid black;
+    background: white;
+    top: 59%;
+    left: 26%;
+    position: fixed;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Manrope";
+    padding: 3px;
+}
+
+.gif {
+    width: 200px;
+    position: absolute;
+    top: -90%;
+    left: 43%;
+    display: none;
+}
+
+.hoverme {
+    text-decoration: underline;
+}
+
+.extra-info {
+    color: red;
+    font-size: 30px;
+    line-height: 0em;
+    padding-top: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.clickme {
+    font-size: 30px;
+    line-height: 0em;
+}
+
+.amarillo {
+    position: fixed;
+    top: 91%;
+    left: 16%;
+    width: 230px;
+    height: 50px;
+}
+
+.azul {
+    position: fixed;
+    top: 93%;
+    left: 89%;
+    width: 140px;
+    height: 50px;
+}
+
+.rojo {
+    position: fixed;
+    top: 89%;
+    left: 0.9%;
+    width: 140px;
+    height: 50px;
+}
+
+.rosado {
+    position: fixed;
+    top: 34%;
+    left: 82%;
+    width: 200px;
+    height: 50px;
+}
+
+.morado {
+    position: fixed;
+    top: 79.3%;
+    left: 59%;
+    width: 220px;
+    height: 50px;
+}
+
+.gris {
+    position: fixed;
+    top: 0.8%;
+    left: 70%;
+    width: 130px;
+    height: 50px;
+}
+
+.blanco {
+    position: fixed;
+    top: 93%;
+    left: 64%;
+    width: 190px;
+    height: 50px;
+}
+
+.negro {
+    position: fixed;
+    top: 54.5%;
+    left: 1.7%;
+    width: 180px;
+    height: 50px;
+}
+
+.arcoiris {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    width: 200px;
+    height: 50px;
+}
+
+.verde {
+    position: fixed;
+    top: 52%;
+    left: 25%;
+    width: 160px;
+    height: 50px;
+}
+
+.running_flower {
+    position: fixed;
+    top: 8%;
+    left: 9.8%;
+}
+
+.flowers {
+    position: fixed;
+    top: 40%;
+    left: 67%;
+    width: 450px;
+    height: 450px;
+}
+
+.rainbow_flower {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    top: 62%;
+    left: 4%;
+}
+
+.portrait {
+    position: relative;
+    width: 260px;
+    height: 250px;
+    top: 30%;
+    left: 45%;
+}
+
+.balloons {
+    position: fixed;
+    width: 270px;
+    height: 270px;
+    top: 3%;
+    left: 75%;
+}
+
+.draggable {
+    cursor:move;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .container {
+        height: auto;
+        overflow: scroll;
+    }
+
+    .title {
+        position: relative;
+        width: auto;
+    }
+    
+    .switch {
+        width: auto;
+        height: auto;
+        border: 3px solid black;
+        position: relative;
+    }
+    
+    .switch-button {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: black;
+    }
+
+    .spotify {
+        position: fixed;
+        top: 2.5%;
+        left: 2%;
+        width: 325px;
+        height: 405px;
+        padding: 10px;
+        background: white;
+        border: 2px solid black;
+    }
+    
+    .information {
+        top: auto;
+        left: auto;
+        position: relative;
+    }
+    
+    .amarillo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .azul {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .rojo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .rosado {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .morado {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .gris {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .blanco {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .negro {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .arcoiris {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .verde {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .running_flower {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .flowers {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .rainbow_flower {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .portrait {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .balloons {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .draggable {
+        cursor:move;
+    }
+
+}
