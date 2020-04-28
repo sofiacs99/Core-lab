@@ -1,0 +1,248 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+.discoball {
+    position: absolute;
+    top: -5%;
+    left: 33%;
+    width: 300px;
+    height: 290px;
+}
+
+.chat {
+    position: absolute;
+    width: 260px;
+    height: 330px;
+    background:white;
+    border-radius: 7px;
+    border-color: white;
+    border-width: 3px;
+    top: 50%;
+    left: 78%;
+}
+
+.live_video {
+    position: absolute;
+    width: 620px;
+    height: 420px;
+    background: maroon;
+    top: 33%;
+    left: 30%;
+}
+
+.spotify_draggable {
+    position: absolute;
+    top: 35.7%;
+    left: 5%;
+}
+
+.spotify_frame {
+    position: absolute;
+    top: 13.2%;
+    left: 1.8%;
+    width: 380px;
+    height: 550px;
+}
+
+.donate {
+    position: absolute;
+    width: 110px;
+    height: 42px;
+    background: #F9C432;
+    border-radius: 7px;
+    color: black;
+    top: 89.7%;
+    left: 17%;
+}
+
+.donate {
+    position: relative;
+    font-size: 23px;
+    font-family: Quicksand;
+    text-align: center;
+    line-height: 40px;
+}
+
+.donation_name {
+    position: absolute;
+    top: 81%;
+    left: 4%;
+    width: 300px;
+    height: 70px;
+}
+
+.escondido_name {
+    position: absolute;
+    top: 26.5%;
+    left: 10.1%;
+    width: 120px;
+    height: 40px;
+}
+
+.escondido_slogan {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 370px;
+    height: 70px;
+}
+
+.dj_name {
+    position: absolute;
+    top: 84%;
+    left: 35%;
+    width: 270px;
+    height: 39px;
+}
+
+.time {
+    position: absolute;
+    top: 92%;
+    left: 42.5%;
+    width: 125px;
+    height: 19px;
+}
+
+.woman_flowers {
+    position: absolute;
+    top: 21%;
+    left: 68%;
+    width: 150px;
+    height: 190px;
+}
+
+.man_flowers {
+    position: absolute;
+    top: 4%;
+    left: 75%;
+    width: 180px;
+    height: 350px;
+}
+
+.text_pink {
+    position: absolute;
+    top: 5%;
+    left: 65.5%;
+    width: 200px;
+    height: 215px;
+}
+
+.disco_ball {
+    position: absolute;
+    top: -5%;
+    left: 30%;
+    width: 410px;
+    height: 360px;
+}
+
+.escondido_flowers {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 290px;
+    height: 190px;
+}
+
+form, p, span {
+    margin:0;
+    padding:0; 
+}
+  
+input { 
+    font:12px helvetica; 
+}
+  
+a {
+    columns: white;
+    text-decoration:none; }
+  
+    a:hover { 
+        text-decoration:underline; 
+    }
+  
+#submitmsg { 
+    width: 50px;
+    top: 89.5%;
+    left: 91.8%;
+    position: fixed;
+}   
+    
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    padding-left: 20px;
+    background:black;
+    width:313px;
+    height: 340px;
+    border:1px solid white; 
+    border-radius: 20px;
+    top: 51%;
+    left: 75%;
+    position: fixed;
+}
+  
+#loginform { 
+    padding-top:18px; 
+}
+  
+#loginform p { 
+    margin: 5px; 
+}
+  
+#chatbox {
+    text-align:left;
+    margin-bottom:25px;
+    margin-left: 0.5px;
+    padding:10px;
+    background:#fff;
+    height:250px;
+    width:270px;
+    border:1px solid white;
+    border-radius: 10px;
+    overflow: auto; 
+    top: 56%;
+    left: 76.5%;
+    position: fixed;
+}
+
+#usermsg {
+    width:210px;
+    border:1px solid white; 
+    border-radius: 5px;
+    margin-left: -2px;
+    top: 89.5%;
+    left: 76.8%;
+    position: fixed;
+}
+  
+.error { 
+    color: #ff0000; 
+}
+  
+#menu { 
+    padding:12.5px 22px 12.5px 2px; 
+    font-family: Helvetica, sans-serif;
+}
+  
+.welcome { 
+    float:left; 
+}
+  
+.logout { 
+    float:right; 
+}
+  
+.msgln { 
+    margin:0 0 2px 0; 
+}
