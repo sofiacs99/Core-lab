@@ -22,10 +22,10 @@ body {
 
 .textpink {
     position: absolute;
-    top: 2.5%;
-    left: 70%;
-    width: 130px;
-    height: 130px;
+    top: 3%;
+    left: 71%;
+    width: 120px;
+    height: 110px;
 }
 
 .draggable {
