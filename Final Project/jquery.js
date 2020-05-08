@@ -1,5 +1,7 @@
-var audio1 = document.getElementById("audioID");
+$(function(){
+    $(".draggable").draggable({
+        stack: ".draggable",
+        containment: ".container"
+    });
 
-function playAudio() {
-    audio1.play();
-  }
+})
