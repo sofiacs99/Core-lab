@@ -3,5 +3,4 @@ $(function(){
         stack: ".draggable",
         containment: ".container"
     });
-
 })

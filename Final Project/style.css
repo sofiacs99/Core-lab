@@ -22,14 +22,14 @@ body {
 
 .textpink {
     position: absolute;
-    top: 3%;
-    left: 71%;
+    top: 3.5%;
+    left: 77%;
     width: 120px;
     height: 110px;
 }
 
 .draggable {
-    cursor:move;
+    cursor: move;
 }
 
 .discoball {
@@ -120,16 +120,12 @@ body {
 
 .escondido_name {
     position: absolute;
-    top: 26.5%;
-    left: 10.1%;
-    width: 120px;
-    height: 40px;
+    top: 28%;
+    left: 11%;
 }
 
 .escondido_name:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    transform : scale(1.2); 
 }
 
 .escondido_flowers {
