@@ -1,0 +1,286 @@
+
+body { 
+  overflow-x: hidden;
+}
+
+.heading {
+  position: relative;
+  left: 20px;
+  top: -41px;
+  font-family: didot;
+  color: black;
+}
+
+.home {
+  color: black;
+  position: relative;
+  left: 1190px;
+  top: 15px;
+  font-family:blacker display;
+  font-size: 13px;
+}
+
+.line {
+  position: relative;
+  top: -53px;
+}
+
+.bar {
+	position: absolute;
+	top: 68px;
+	left: 23px;
+}
+
+.bar:hover {
+	cursor: pointer;
+}
+
+.sidenav {
+  height: 35px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 57;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 2s;
+  padding-top: 3px;
+  padding-bottom: 25px;
+  font-family: lato, sans-serif, thin;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.sidenav a {
+  padding: 2px 50px 2px 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  vertical-align: middle;
+}
+
+.sidenav a:hover {
+  color: lightgray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 2;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 100px;
+}
+
+@media screen and (max-height: 20px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menu_1 {
+  position: relative;
+  left: 170px;
+  top: -83px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
+}
+
+.menu_1:hover {
+	cursor: pointer;
+}
+
+.menu_2 {
+  position: relative;
+  left: 380px;
+  top: -108px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
+}
+
+.menu_2:hover {
+	cursor: pointer;
+}
+
+.menu_3 {
+  position: relative;
+  left: 610px;
+  top: -132px;
+  font-family: didot;
+  color: black;
+  font-size: 22px;
+}
+
+.menu_3:hover {
+	cursor: pointer;
+}
+
+.infoco {
+  position: relative;
+  top: 175px;
+  left: 187px;
+  font-size: 30px;
+  font-family: didot;
+}
+
+.research {
+  position: relative;
+  top: 249px;
+  left: 440px;
+  font-size: 30px;
+  font-family: didot;
+}
+
+.sliding_image1 {
+  position:relative;
+  top: 30px;
+  left: 20px;
+    animation-name: image;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+@keyframes image {
+  0%   {left:0px; top:-140px;}
+  25%  {left:150px; top:-140px;}
+  50%  {left:150px; top:-140px;}
+  75%  {left:150px; top:-140px;}
+  100% {left:150px; top:-140px;}
+}
+
+.sliding_image2 {
+  position:relative;
+  top: 60px;
+  left: 20px;
+  animation-name: images;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+@keyframes images {
+  0%   {left:0px; top:-120px;}
+  25%  {left:420px; top:-120px;}
+  50%  {left:420px; top:-120px;}
+  75%  {left:420px; top:-120px;}
+  100% {left:420px; top:-120px;}
+}
+
+.sliding_image3 {
+  position:relative;
+  top: 65px;
+  left: 20px;
+  animation-name: imagess;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+@keyframes imagess {
+  0%   {left:0px; top:-100px;}
+  25%  {left:700px; top:-100px;}
+  50%  {left:700px; top:-100px;}
+  75%  {left:700px; top:-100px;}
+  100% {left:700px; top:-100px;}
+}
+
+.as{
+  font-family: didot;
+  color: white;
+  background-color: black;
+  left: 22px;
+  top:-8px;
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.statement1 p {
+  position: relative;
+  top:-15px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.statement2 p {
+  position: relative;
+  top:-31px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.statement3 p {
+  position: relative;
+  top:-47px;
+  overflow: hidden;
+    border-right: .10em black;
+    white-space: nowrap;
+    margin: 22px;
+    letter-spacing: .15em;
+    animation: 
+      typing 5s steps(45, end),
+      blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.mySlides w3-animate-fading {
+	border:1px solid black;
+}
+
+.line2 { 
+  position: relative;
+  top: -30px;
+  left:20px;
+}
