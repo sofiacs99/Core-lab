@@ -17,7 +17,7 @@ body {
 }
 
 .pinkText {
-    position: absolute;
+    position: fixed;
     top: 3.5%;
     left: 77%;
     width: 120px;
@@ -46,8 +46,8 @@ body {
 
 .welcome_text {
     position: absolute;
-    top: 44.5%;
-    left: 82%;
+    top: 41.7%;
+    left: 82.3%;
     font-size: 22px;
     font-family: Fjalla One;
     color: white;
@@ -179,105 +179,15 @@ body {
     height: 330px;
 }
 
-.disco_ball {
+.playlist_message {
     position: absolute;
-    top: -5%;
-    left: 30%;
-    width: 410px;
-    height: 360px;
-}
-
-form, p, span {
-    margin:0;
-    padding:0; 
-}
-  
-input { 
-    font:12px helvetica; 
-}
-  
-a {
-    columns: white;
-    text-decoration:none; }
-  
-    a:hover { 
-        text-decoration:underline; 
-    }
-  
-#submitmsg { 
-    width: 50px;
-    top: 81.5%;
-    left: 91.8%;
-    position: fixed;
-}   
-    
-#wrapper, #loginform {
-    margin:0 auto;
-    padding-bottom:25px;
-    padding-left: 20px;
-    background:black;
-    width:313px;
-    height: 340px;
-    border:1px solid white; 
-    border-radius: 20px;
-    top: 43%;
-    left: 75%;
-    position: fixed;
-}
-  
-#loginform { 
-    padding-top:18px; 
-}
-  
-#loginform p { 
-    margin: 5px; 
-}
-  
-#chatbox {
-    text-align:left;
-    margin-bottom:25px;
-    margin-left: 0.5px;
-    padding:10px;
-    background:#fff;
-    height:250px;
-    width:270px;
-    border:1px solid white;
-    border-radius: 10px;
-    overflow: auto; 
-    top: 48%;
-    left: 76.5%;
-    position: fixed;
-}
-
-#usermsg {
-    width:210px;
-    border:1px solid white; 
-    border-radius: 5px;
-    margin-left: -2px;
-    top: 81.5%;
-    left: 76.8%;
-    position: fixed;
-}
-  
-.error { 
-    color: #ff0000; 
-}
-  
-#menu { 
-    padding:12.5px 22px 12.5px 2px; 
-    font-family: Helvetica, sans-serif;
-}
-  
-.welcome { 
-    float:left; 
-}
-  
-.logout { 
-    float:right; 
-}
-  
-.msgln { 
-    margin:0 0 2px 0; 
+    top: 44.5%;
+    left: 82%;
+    font-size: 22px;
+    font-family: Fjalla One;
+    color: white;
+    letter-spacing: 0.1em;
+    display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -287,4 +197,179 @@ a {
         overflow: scroll;
     }
 
+    .pinkText {
+        position: absolute;
+        top: 142%;
+        left: 55%;
+        width: 120px;
+        height: 110px;
+    }
+    
+    .draggable {
+        cursor: move;
+    }
+    
+    .discoball {
+        position: absolute;
+        top: -5%;
+        left: 18%;
+        width: 300px;
+        height: 290px;
+    }
+    
+    .chat {
+        position: absolute;
+        width: 265px;
+        height: 340px;
+        top: 110%;
+        left: 15%;
+    }
+    
+    .welcome_text {
+        position: absolute;
+        top: 161.5%;
+        left: 36%;
+        font-size: 22px;
+        font-family: Fjalla One;
+        color: white;
+        letter-spacing: 0.1em;
+    }
+    
+    .live_video {
+        position: absolute;
+        width: 460px;
+        height: 338px;
+        top: 71%;
+        left: 4%;
+        cursor: pointer;
+    }
+    
+    .spotify {
+        position: absolute;
+        top: 229.2%;
+        left: 19.2%;
+    }
+    
+    .spotify_frame {
+        position: absolute;
+        top: 120.5%;
+        left: 6.5%;
+        width: 380px;
+        height: 550px;
+    }
+    
+    .donate {
+        position: absolute;
+        width: 110px;
+        height: 42px;
+        background: white;
+        border-radius: 7px;
+        color: black;
+        top: 34.5%;
+        left: 87.5%;
+        padding: 8px;
+        font-size: 22px;
+        font-family: Fjalla One;
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+    }
+    
+    .donate:active {
+        background-color:white;
+        box-shadow: 0 5px white;
+        transform: translateY(4px);
+    }
+    
+    .donate:hover {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        transform: translateY(4px);
+    }
+    
+    .donation_name {
+        position: absolute;
+        top: 81%;
+        left: 4%;
+        width: 300px;
+        height: 70px;
+    }
+    
+    .escondido_name {
+        position: absolute;
+        top: 64.5%;
+        left: 38%;
+    }
+    
+    .escondido_name:hover {
+        transform : scale(1.2); 
+        cursor: pointer;
+    }
+    
+    .escondido_flowers {
+        position: absolute;
+        top: 31%;
+        left: 12.5%;
+        width: 290px;
+        height: 190px;
+    }
+    
+    .escondido_slogan {
+        position: absolute;
+        top: 33%;
+        left: 7%;
+        width: 370px;
+        height: 70px;
+    }
+    
+    .dj_name {
+        position: absolute;
+        top: 115%;
+        left: 15%;
+        width: 270px;
+        height: 39px;
+    }
+    
+    .time {
+        position: absolute;
+        top: 124%;
+        left: 29%;
+        width: 125px;
+        height: 19px;
+    }
+    
+    .woman_flowers {
+        position: absolute;
+        top: 133%;
+        left: 21%;
+        width: 150px;
+        height: 190px;
+    }
+    
+    .woman_flowers:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    
+    .man_flowers {
+        position: absolute;
+        top: 0.5%;
+        left: 75%;
+        width: 180px;
+        height: 330px;
+        display: none;
+    }
+
+    .playlist_message {
+        position: absolute;
+        top: 214%;
+        left: 15.5%;
+        font-size: 30px;
+        font-family: Fjalla One;
+        color: white;
+        letter-spacing: 0.1em;
+        display: flex;
+    }
+    
 }
