@@ -9,7 +9,6 @@ $(function(){
 var audioBox = document.querySelector(".audiobox");
 var liveVideoImage = document.querySelector(".live_video");
 
-
-liveVideoImage.addEventListener("mouseover", function() {
+liveVideoImage.addEventListener("click", function() {
     audioBox.play();
 })

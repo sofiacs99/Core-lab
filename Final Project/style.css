@@ -31,7 +31,7 @@ body {
 .discoball {
     position: absolute;
     top: -5%;
-    left: 33%;
+    left: 41%;
     width: 300px;
     height: 290px;
 }
@@ -59,7 +59,8 @@ body {
     width: 620px;
     height: 417px;
     top: 22%;
-    left: 21%;
+    left: 21.3%;
+    cursor: pointer;
 }
 
 .spotify {
@@ -122,6 +123,7 @@ body {
 
 .escondido_name:hover {
     transform : scale(1.2); 
+    cursor: pointer;
 }
 
 .escondido_flowers {
@@ -158,10 +160,15 @@ body {
 
 .woman_flowers {
     position: absolute;
-    top: 15%;
-    left: 68%;
+    top: 18.5%;
+    left: 76%;
     width: 150px;
     height: 190px;
+}
+
+.woman_flowers:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .man_flowers {
